@@ -15,16 +15,6 @@ router.post("/notes", (req, res) => {
 
 });
 
-router.delete('/notes/:id', (req, res) => {
-    //fetch note by id
-    let noteId = req.params.id
-    console.log(noteId);
-    let newList = notes.filter(note => note.id !== noteId);
-    console.log(newList);
 
-    fs.writeFileSync(`${notes}`, JSON.stringify(newList));
-
-    res.json(newList);
-})
 
 module.exports = router;
