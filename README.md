@@ -4,7 +4,7 @@ A web based application used for recording and saving notes.
 
 # Link
 
-https://git.heroku.com/powerful-reaches-65531.git
+https://powerful-reaches-65531.herokuapp.com/
 
 # Screenshot
 
